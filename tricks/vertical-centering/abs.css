@@ -1,0 +1,18 @@
+.vertical {
+  width: 300px;
+  height: 300px;
+  padding:20px;
+  position: absolute;
+  top: 50%; left: 50%;
+  margin-left: -170px; /* (width + padding)/2 */
+  margin-top: -170px; /* (width + padding)/2 */
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px #fff;
+}
+
+p {
+  padding: 10px;  
+}
