@@ -4,7 +4,9 @@
 
 snippet:
 
-```w100```
+```
+  w100
+```
 
   > works with px and % 
 
