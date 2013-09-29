@@ -8,7 +8,7 @@ snippet:
   w100
 ```
 
-  > works with px and % 
+  > works with px (default) and % 
 
 css:
 
