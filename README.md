@@ -196,6 +196,6 @@
 
   - [Decoupling your HTML, CSS, and JavaScript](http://philipwalton.com/articles/decoupling-html-css-and-javascript/) - Philip Walton
   - [Decouple Your CSS From HTML With Reusable Modules](http://thenittygritty.co/decouple-css) - Hans Christian Reinl
-  - [Front-end Code Standards & Best Practices](http://isobar-idev.github.io/code-standards/)
+  - [Front-end Code Standards & Best Practices](http://isobar-idev.github.io/code-standards/) - Isobar iDev
 
   **[[⬆]](#TOC)**
