@@ -11,6 +11,7 @@
   1. [Comments](#comments)
   1. [Whitespace](#whitespace)
   1. [Naming Conventions](#naming)
+  1. [Data Attributes](#data)
   1. [Browser Compatibility](#compatibility)
   1. [Testing](#testing)
   1. [Performance](#performance)
@@ -163,6 +164,13 @@
 ## <a name='naming'>Naming Conventions</a>
 
   - Coming...
+
+  **[[⬆]](#TOC)**
+
+## <a name='data'>Data Attributes</a>
+
+  - Use data attributes for data not for selectors. That's what classes and id's are for and they are faster. (TODO: Find Perf)
+  - More Coming...
 
   **[[⬆]](#TOC)**
 
