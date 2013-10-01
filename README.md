@@ -133,8 +133,24 @@
 
 ## <a name='comments'>Comments</a>
 
-  - Use comments :smile:
-  - More coming....
+  - Use comments to denote groups.
+
+    ```less
+    /* @group Layouts */
+    ```
+  - Should we also have HTML comments to denote HTML blocks???
+    
+    ```html
+
+      <div class="container">
+        <div class="span6">
+          <h2>Hi</h2>
+        </div>
+        <div class="span6">
+          <h2>Awesome Person</h2>
+        </div>
+      </div><!-- end container -->
+    ```
 
   **[[⬆]](#TOC)**
 
@@ -201,7 +217,7 @@
 
 ## <a name='data'>Data Attributes</a>
 
-  - Use data attributes for data not for selectors. That's what classes and id's are for and they are faster. [Perf Test](http://jsperf.com/class-vs-data-attribute-selector-performance)
+  - Use data attributes for data not for selectors. That's what classes and id's are for and they are faster. ([Perf Test](http://jsperf.com/class-vs-data-attribute-selector-performance))
   
     ```less
     // bad
@@ -273,9 +289,9 @@
 ## <a name='compatibility'>Browser Compatibility</a>
 
   - Major IE9 issues:
-      - A CSS stylesheet may contain up to a **maximum 4095 rules** [Telerik Tests](http://blogs.telerik.com/aspnet-ajax/posts/10-05-03/internet-explorer-css-limits.aspx)
-      - A stylesheet may `@import` up to a **maximum of 31 other sheets**
-      - `@import` nesting supports up to a **maximum of 4 levels deep**
+      - A CSS stylesheet may contain up to a **maximum 4095 rules.** ([Telerik Tests](http://blogs.telerik.com/aspnet-ajax/posts/10-05-03/internet-explorer-css-limits.aspx))
+      - A stylesheet may `@import` up to a **maximum of 31 other sheets.**
+      - `@import` nesting supports up to a **maximum of 4 levels deep.**
 
   - For additional cross browser issues and solutions refer to [Browser Hacks](http://browserhacks.com/)
 
